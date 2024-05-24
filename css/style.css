@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #87CEFA;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    color: #0000FF;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0000FF;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid  #007FFF;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="text"]:focus,
+ input[type="password"]:focus,
+textarea:focus{
+    border: 2px solid #0000FF;
+    outline: none;
+}
+button {
+    background-color: #0000FF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #007FFF;
+}
+
+.dashboard-container {
+    background-color: #87CEFA;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+
+.create-link {
+    display: block;
+    margin-bottom: 15px;
+    color: #0000FF;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-link:hover {
+    color: #007FFF;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.styled-table th,
+.styled-table td {
+    border: 1px solid #007FFF;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.styled-table th {
+    background-color: #0000FF;
+    color: white;
+}
+
+.styled-table td {
+    background-color: #f0f8ff;
+}
+
+.styled-table tr:nth-child(even) td {
+    background-color: #e0f0ff;
+}
+
+.action-link {
+    color: #0000FF;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.action-link:hover {
+    color: #007FFF;
+}
+
+
+.manage-container {
+    background-color: #87CEFA;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: auto; /* Centrare il contenuto */
+}
+
+.manage-container h1 {
+    color: #0000FF;
+    text-align: center;
+}
+
+.manage-container .form-group {
+    margin-bottom: 15px;
+}
+
+.manage-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0000FF;
+}
+
+.manage-container input[type="text"],
+.manage-container input[type="password"],
+.manage-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid  #007FFF;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.manage-container input[type="text"]:focus,
+.manage-container input[type="password"]:focus,
+.manage-container textarea:focus {
+    border: 2px solid #0000FF;
+    outline: none;
+}
+
+.manage-container button {
+    background-color: #0000FF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.manage-container button:hover {
+    background-color: #007FFF;
+}
+
+.manage-container .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.manage-container .styled-table th,
+.manage-container .styled-table td {
+    border: 1px solid #007FFF;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.manage-container .styled-table th {
+    background-color: #0000FF;
+    color: white;
+}
+
+.manage-container .styled-table td {
+    background-color: #f0f8ff;
+}
+
+.manage-container .styled-table tr:nth-child(even) td {
+    background-color: #e0f0ff;
+}
+
+.manage-container .action-link {
+    color: #0000FF;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.manage-container .action-link:hover {
+    color: #007FFF;
+}
