@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
         if ($authenticatedUser) {
             $_SESSION['user_id'] = $authenticatedUser['id'];
-            header('Location: admin/dashboard.php');
+            header('Location: ../dashboard.php');
             exit;
         } else {
             $error = "Username o password non validi.";
@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
-    <link rel="stylesheet" href="/project-end-php/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body style="background-color: #8C8C8D; color:white;">
 
@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <?php if ($error): ?>
         <p style="color:red;"> <?php echo $error; ?> </p>
     <?php endif ?>
-    <form action="" method="POST" enctype="multipart/form-data">
+    <form action="login.php" method="POST" enctype="multipart/form-data">
         <div class="form-group">
             <label for="username">Username</label>
             <input type="text" id="username" name="username" required>

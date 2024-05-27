@@ -8,5 +8,5 @@ $db = new Database();
 $user = new User($db);
 $sensitivedata = new SensitiveData($db);
 
-session_start();
+
 ?>

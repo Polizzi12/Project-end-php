@@ -15,7 +15,7 @@ $sensitivedatalist = $sensitivedata->read();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="/project-end-php/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body style="background-color: #8C8C8D; color:white;">
 <div class="dashboard-container">
